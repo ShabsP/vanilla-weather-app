@@ -62,3 +62,9 @@ li.first-letter {
 .btn {
   margin-top: -18px;
 }
+
+.weather-temperature .active {
+  color: grey;
+  cursor: default;
+  text-decoration: none;
+}
