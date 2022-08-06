@@ -1,10 +1,12 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/042/886/original/background.jpeg?1659796836);
+  background-size: 600px;
 }
 
 h1 {
-  color: grey;
-  font-size: 26px;
+  color: #252633;
+  font-size: 28px;
   margin-bottom: 0;
 }
 
@@ -15,8 +17,8 @@ ul {
 
 li {
   list-style: none;
-  color: #70757a;
-  font-size: 16px;
+  color: #252633;
+  font-size: 18px;
   line-height: 24px;
 }
 li.first-letter {
@@ -36,21 +38,24 @@ li.first-letter {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid grey;
-  border-radius: 5px;
+  border: 1px solid white;
+  border-radius: 10px 50px;
+  background-color: rgb(237, 232, 244);
+  color: #252633;
 }
 
 .weather-temperature img {
-  margin-right: 10px;
-  height: 100px;
-  width: 100px;
+  margin-left: -30px;
+  height: 160px;
+  width: 160px;
 }
 
 .weather-temperature strong {
   color: black;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 400;
   line-height: 1;
+  margin-left: -30px;
 }
 
 .weather-temperature .units {
@@ -60,11 +65,30 @@ li.first-letter {
 }
 
 .btn {
-  margin-top: -18px;
+  margin-top: -14px;
+  background-color: #4d3b87;
+  border: #4d3b87;
 }
 
+.btn:hover {
+  background-color: #8a447a;
+}
 .weather-temperature .active {
-  color: grey;
+  color: #252633;
   cursor: default;
   text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  max-width: 600px;
+  margin-top: -20px;
+
+  border-radius: 10px 50px;
+  background-color: rgb(237, 232, 244);
+  color: #252633;
+}
+
+#breakdown {
+  margin-top: 35px;
 }
