@@ -58,3 +58,7 @@ li.first-letter {
   font-size: 16 px;
   top: -25px;
 }
+
+.btn {
+  margin-top: -18px;
+}
