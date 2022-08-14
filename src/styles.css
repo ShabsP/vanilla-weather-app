@@ -1,13 +1,14 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/042/886/original/background.jpeg?1659796836);
   background-size: 600px;
 }
 
 h1 {
-  color: #252633;
+  color: black;
   font-size: 28px;
   margin-bottom: 0;
+  font-weight: bold;
 }
 
 ul {
@@ -40,7 +41,7 @@ li.first-letter {
   padding: 20px;
   border: 1px solid white;
   border-radius: 10px 50px;
-  background-color: rgb(237, 232, 244);
+  background-color: white;
   color: #252633;
 }
 
@@ -61,7 +62,7 @@ li.first-letter {
 .weather-temperature .units {
   position: relative;
   font-size: 16 px;
-  top: -25px;
+  top: -30px;
 }
 
 .btn {
@@ -83,9 +84,8 @@ li.first-letter {
   text-align: center;
   max-width: 700px;
   margin-top: -20px;
-
   border-radius: 10px 50px;
-  background-color: rgb(237, 232, 244);
+  background-color: white;
   color: #252633;
 }
 
@@ -96,15 +96,16 @@ li.first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
+  border-radius: 10px 50px;
 }
 
 .weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.7;
+  font-size: 18px;
+  opacity: 0.9;
 }
 
 .weather-forecast-temperature {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .weather-forecast-temperature-min {
